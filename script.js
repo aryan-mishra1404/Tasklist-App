@@ -27,7 +27,7 @@ const saveNotes = () => {
   }
 };
 
-//Feature 2 - ADD NOTES
+//Feature 2 - ADD NOTES..
 button.addEventListener("click", () => {
   addNote();
 });
