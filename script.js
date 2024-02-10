@@ -60,9 +60,9 @@ const addNote = (text = "", texthead = "") => {
   saveNotes();
 
   //FOR AUTOSAVE
-  note.querySelector("textarea").addEventListener("focusout", function () {
-    saveNotes();
-  });
+  // note.querySelector("textarea").addEventListener("focusout", function () {
+  //   saveNotes();
+  // });
 };
 
 //SELF CALLING FUNCTION
